@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f7f7f7;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 10px;
+    background: rgba(0, 99, 65, 1);
+}
+
+.max-width1200 {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.location img {
+    width: 20px;
+    height: 20px;
+}
+
+.location {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.location a {
+    text-decoration: none;
+    color: #5b5959;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    max-width: 100%;
+}
+
+.menu li {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.menu a {
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background: black;
+    color: white;
+}
+
+section {
+    height: 60vh;
+}
+
+.seasonal-drinks {
+    background: url('./img/1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.gift-drink {
+    background: url('./img/2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 50px 0 0;
+}
+
+footer:after {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 100vw;
+    background: #382F2D;
+}
+
+.right-block {
+    width: 150px;
+    height: auto;
+    background: url('img/3.png') center right no-repeat;
+    background-size: 10%;
+}
+
+.left-block img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+ .left-block{
+     padding-left: 35px;
+ }
+
+.icons img {
+    max-width: 50px
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.list a {
+    color: black;
+    text-decoration: none;
+}
+
+.list {
+    padding-right: 20px;
+}
+
+.icons {
+    margin-bottom: 50px;
+}
+
+.footer-daschboard {
+    display: flex;
+    flex-flow: row;
+}
+
+.list h4 {
+    padding-bottom: 20px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 30px 0 20px;
+}
+
+.footer-list li {
+    margin-right: 20px;
+}
+
+.root p {
+    font-size: 14px;
+    color: #666;
+}
+
+.root {
+    margin-bottom: 30px;
+}
